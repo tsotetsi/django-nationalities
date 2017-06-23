@@ -71,4 +71,4 @@ __pycache__/
 db.sqlite3
 
 # IDE
-.idea/
+*.idea/
