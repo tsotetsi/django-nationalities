@@ -96,7 +96,7 @@ NATIONALITIES = (
     ("GY", _("Guyana")),
     ("HT", _("Haiti")),
     ("HM", _("Heard Island And Mcdonald Islands")),
-    ("VA", _("Holy See (vatican City State)")),
+    ("VA", _("Holy See (Vatican City State)")),
     ("HN", _("Honduras")),
     ("HK", _("Hong Kong")),
     ("HU", _("Hungary")),
