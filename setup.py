@@ -1,6 +1,6 @@
 from setuptools import setup
 
-from nationalities import __version__
+from nations import __version__
 
 
 version_str = "".join(str(n) for n in __version__)
@@ -26,17 +26,20 @@ CLASSIFIERS = [
 ]
 
 setup(
-    name='django-nationalities',
-    description='django nationalities.',
-    long_description='Django nationalities',
+    name='django-nations',
+    description='django nations.',
+    long_description='Django nations',
     version=version_str,
-    packages=['nationalities'],
+    packages=['nations'],
     include_package_data=True,
     zip_safe=False,
+    install_requires=[
+        'Django'
+    ],
     author='Thapelo Tsotetsi',
     author_email='info@thapelotsotetsi.co.za',
-    url="https://github.com/tsotetsi/django-nationalities",
+    url="https://github.com/tsotetsi/django-nations",
     license='MIT',
-    keywords='django nationalities',
+    keywords='django nations',
     classifiers=CLASSIFIERS,
 )
